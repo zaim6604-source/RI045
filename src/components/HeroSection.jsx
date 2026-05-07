@@ -25,13 +25,13 @@ export default function HeroSection() {
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         {/* Eyebrow */}
         <p className="reveal text-[#c9a84c] text-xs font-semibold tracking-[0.35em] uppercase mb-6">
-          Overseas Employment &bull; Est. Karachi
+          Overseas Employment • License No. 0848 / LHR
         </p>
 
         {/* Main heading */}
         <h1 className="reveal reveal-delay-1 font-playfair text-5xl md:text-7xl font-bold text-white leading-[1.12] mb-6">
-          Connecting People<br />
-          <span className="italic text-[#c9a84c]">to Opportunities</span><br />
+          Connecting Talent<br />
+          <span className="italic text-[#c9a84c]">to Global Opportunities</span><br />
           Worldwide
         </h1>
 
@@ -44,8 +44,9 @@ export default function HeroSection() {
 
         {/* Subtext */}
         <p className="reveal reveal-delay-2 text-white/70 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-10">
-          Ali Zafar Recruiting Agency bridges talented professionals with global employers.
-          Licensed, trusted, and dedicated to your career journey.
+          Rawal International is a licensed overseas employment agency based in Lahore, Pakistan.
+          We connect skilled Pakistani professionals with trusted international employers through
+          transparent, reliable, and professional recruitment services.
         </p>
 
         {/* CTA buttons */}
@@ -56,12 +57,26 @@ export default function HeroSection() {
           >
             Start Your Journey
           </a>
+
           <a
             href="#about"
             className="border border-white/30 text-white/90 text-sm font-medium px-8 py-3.5 rounded-full hover:border-white hover:text-white transition-all duration-300 backdrop-blur-sm"
           >
             Learn More
           </a>
+        </div>
+
+        {/* Quick info */}
+        <div className="reveal reveal-delay-4 mt-14 flex flex-wrap justify-center gap-8 text-white/60 text-sm">
+          <div>
+            <span className="text-[#c9a84c] font-semibold">Location:</span> Lahore, Punjab
+          </div>
+          <div>
+            <span className="text-[#c9a84c] font-semibold">Licensed:</span> 0848 / LHR
+          </div>
+          <div>
+            <span className="text-[#c9a84c] font-semibold">Contact:</span> 042-37804030
+          </div>
         </div>
 
         {/* Scroll indicator */}

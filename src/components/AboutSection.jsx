@@ -17,17 +17,19 @@ export default function AboutSection() {
         </p>
 
         <h2 className="reveal font-playfair text-4xl md:text-5xl font-bold text-[#1e3a5f] text-center leading-[1.2] mb-14">
-          Built on Trust,<br />
-          <span className="italic">Driven by Purpose</span>
+          Connecting Talent,<br />
+          <span className="italic">Creating Global Opportunities</span>
         </h2>
 
         <div className="space-y-8">
           <div className="reveal reveal-delay-1">
             <p className="text-[#374151] text-lg leading-relaxed">
-              <span className="font-playfair font-semibold text-[#1e3a5f] text-xl">Ali Zafar Recruiting Agency</span> is
-              a fully licensed overseas employment agency based in Karachi, Pakistan. Authorized under License No. 0700 / KAR,
-              we specialize in placing qualified Pakistani professionals with reputable employers across the Gulf, Middle East,
-              and beyond.
+              <span className="font-playfair font-semibold text-[#1e3a5f] text-xl">
+                Rawal International
+              </span>{' '}
+              is a government licensed overseas employment promoter based in Lahore, Pakistan.
+              Operating under License No. 0848 / LHR, we specialize in recruiting skilled,
+              semi-skilled, and professional manpower for reputable international employers.
             </p>
           </div>
 
@@ -35,18 +37,19 @@ export default function AboutSection() {
 
           <div className="reveal reveal-delay-2">
             <p className="text-[#6b7280] text-base md:text-lg leading-[1.85]">
-              We work closely with both job seekers and international employers to ensure the right match — every time.
-              Our team handles the full recruitment cycle: from sourcing and screening candidates, processing documentation
-              and visas, to coordinating directly with employers abroad. We believe that every placement is more than a
-              transaction — it is a life-changing opportunity.
+              At Rawal International, we are committed to connecting talented Pakistani workers
+              with rewarding opportunities abroad. Our recruitment process focuses on transparency,
+              professionalism, and efficiency — ensuring both employers and candidates receive
+              reliable and dependable services throughout every stage of hiring.
             </p>
           </div>
 
           <div className="reveal reveal-delay-3">
             <p className="text-[#6b7280] text-base md:text-lg leading-[1.85]">
-              Our reputation has been built over years of diligent service and thousands of successful placements.
-              Candidates trust us because we are transparent, accountable, and committed to their well-being. Employers
-              trust us because we deliver qualified, ready-to-work talent with all documentation in order.
+              From candidate sourcing and screening to documentation and overseas deployment,
+              our experienced team manages the complete recruitment cycle with care and precision.
+              We take pride in building long-term trust with clients and helping individuals
+              achieve successful international careers.
             </p>
           </div>
         </div>
@@ -54,13 +57,17 @@ export default function AboutSection() {
         {/* Stats row */}
         <div className="reveal reveal-delay-3 mt-16 grid grid-cols-3 gap-8 border-t border-[#e2ddd6] pt-10">
           {[
-            { num: '1000+', label: 'Candidates Placed' },
-            { num: '15+', label: 'Countries Served' },
-            { num: '100%', label: 'Licensed & Verified' },
+            { num: '0848', label: 'Government License' },
+            { num: '24/7', label: 'Client Support' },
+            { num: '100%', label: 'Verified Agency' },
           ].map((s) => (
             <div key={s.label} className="text-center">
-              <p className="font-playfair text-3xl md:text-4xl font-bold text-[#1e3a5f]">{s.num}</p>
-              <p className="text-xs text-[#9ca3af] tracking-wide mt-1">{s.label}</p>
+              <p className="font-playfair text-3xl md:text-4xl font-bold text-[#1e3a5f]">
+                {s.num}
+              </p>
+              <p className="text-xs text-[#9ca3af] tracking-wide mt-1">
+                {s.label}
+              </p>
             </div>
           ))}
         </div>
