@@ -1,4 +1,4 @@
-```jsx id="4kp8vz"
+
 import { MapPin } from 'lucide-react';
 
 export default function LocationSection() {
@@ -65,4 +65,3 @@ export default function LocationSection() {
     </section>
   );
 }
-```
